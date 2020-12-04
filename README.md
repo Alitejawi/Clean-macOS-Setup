@@ -21,7 +21,7 @@
   <br>
 </p>
 
-__Clean-macOS Setup__ is a simple script that can be used after a clean installation of macOS to configure and install all the apps that you need. It uses _dotfiles_ and _shell scripts_ in order to speed up the configuration of macOS. This has been built off scripts and commands I have gathered over time. I can not be considered the author of this, hence this falls under the Unlicense license. 
+__Clean-macOS Setup__ is a simple script that can be used after a clean installation of macOS to configure and install all the apps that you need. It uses _dotfiles_ and _shell scripts_ in order to speed up the configuration of macOS. This has been built off scripts and commands I have gathered over time. I can not be considered the author of this fully, hence this falls under the MIT license. 
 
 ### To-do
 
