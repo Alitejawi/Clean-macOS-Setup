@@ -361,6 +361,9 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # in the login window
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
+# Always show battery percentage in menu bar
+defaults write com.apple.menuextra.battery ShowPercent YES
+
 ###############################################################################
 # Mac App Store                                                               #
 ###############################################################################
