@@ -35,7 +35,6 @@ __Clean-macOS Setup__ is a simple script that can be used after a clean installa
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Contributing](#contributing)
-- [Useful links](#useful-links)
 - [Credits](#credits)
 
 ## Getting Started
@@ -51,11 +50,11 @@ For the sake of making this easy and straight forward, the directory this is goi
 
 1. Clean installation of macOS (version 10.15+)
 2. Signed to the Apple Store with your iCloud account
-3. Clone the repo with the command `git clone https://github.com/Alitejawi/Clean-macOS-Setup.git ~/Clean-macOS-Setup`
+3. Clone the repo with the command and jump into the directory `git clone https://github.com/Alitejawi/Clean-macOS-Setup.git ~/Clean-macOS-Setup`
 
 ## Setup
 
-Open __Terminal.app__ and run the command `chmod -R 777 ~/Clean-macOS-Setup && ~/Clean-macOS-Setup/Clean-macOS-Setup.sh`, the following promtp will appear from which you can choose one of the options:
+Open __Terminal.app__ and run the command `chmod -R 777 ~/Clean-macOS-Setup && ~/Clean-macOS-Setup/Clean-macOS-Setup.sh`, the following prompt will appear from which you can choose one of the options:
 
 <p align="center">
   <a href="https://github.com/Alitejawi/Clean-macOS-Setup">
