@@ -12,18 +12,18 @@ SETUP=~/Clean-macOS-Setup                  # root folder of Clean-macOS-Setup
 # Install                                                                     #
 ###############################################################################
 
-# Entering as Root
+# Entering as root
 printf "Enter root password...\n"
 sudo -v
 
-# Keep alive Root
+# Keep alive root
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install Brew
 printf "⚙️ Check Brew...\n"
 if test ! $(which brew); then
   # Install Homebrew
-    printf "📦 Installing XCode CL tools...\n"
+    printf "📦 Installing XCode Command Line Tools...\n"
     xcode-select --install
     printf "📦 Installing Homebrew...\n"
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

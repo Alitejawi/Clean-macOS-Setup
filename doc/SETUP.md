@@ -15,11 +15,11 @@ You need an active internet connection and one of the following macOS version:
 - ✔️ macOS 10.15 Catalina
 - ✔️ macOS 11 Big Sur
 
-Do a clean install of macOS (version 10.15+) and after your first access to macOS, follow the instructions below:
+Do a clean install of macOS (version 10.15+) and after you first access to macOS, follow the instructions below:
 
 1. Sign in with your iCloud account into the App Store
 2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/Alitejawi/Clean-macOS-Setup ~/Clean-macOS-Setup`
-3. If you haven't previously installed `X-code` then click __Yes__ in the prompt
+3. If you haven't previously installed `Xcode` then click __Yes__ in the prompt
 
 4. Edit the `Brewfile` file choosing the apps that you want to install
 5. Open __Terminal.app__ and run the following command `chmod -R 777 ~/Clean-macOS-Setup && ~/Clean-macOS-Setup/Clean-macOS-Setup.sh`, the following promtp will appear from which you can choose one of the options:

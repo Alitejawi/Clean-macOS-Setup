@@ -12,11 +12,11 @@ SETUP=~/Clean-macOS-Setup                  # root folder of Clean-macOS
 # Configure                                                                   #
 ###############################################################################
 
-# Entering as Root
+# Entering as root
 printf "Enter root password...\n"
 sudo -v
 
-# Keep alive Root
+# Keep alive root
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install Oh-My-Zsh [1/4]
