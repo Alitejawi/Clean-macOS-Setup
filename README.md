@@ -26,7 +26,7 @@ __Clean-macOS Setup__ is a simple script that can be used after a clean installa
 ### To-do
 
 - [ ] Create "repair option" for Brew
-- [ ] Create "set back to default settings"
+- [ ] Create "revert to default settings"
 
 ## Table of content
 
@@ -41,20 +41,21 @@ __Clean-macOS Setup__ is a simple script that can be used after a clean installa
 
 You need an active internet connection and one of the following macOS version already installed:
 
-- ✔️ macOS 10.15 Catalina
-- ✔️ macOS 11 Big Sur
+- [x] macOS 10.15 Catalina
+- [x] macOS 11 Big Sur
+- [ ] macOS 12 Monterey (testing phase)
 
 For the sake of making this easy and straight forward, the directory this is going to be cloned in is your root user directory (~). Feel free to change this to any directory you want and adjust the commands accordingly. 
 
 ## Requirements
 
 1. Clean installation of macOS (version 10.15+)
-2. Signed to the Apple Store with your iCloud account
+2. Signed to the Apple Store with your Apple ID account
 3. Clone the repo with the command and jump into the directory `git clone https://github.com/Alitejawi/Clean-macOS-Setup.git ~/Clean-macOS-Setup`
 
 ## Setup
 
-Open __Terminal.app__ and run the command `chmod -R 777 ~/Clean-macOS-Setup && ~/Clean-macOS-Setup/Clean-macOS-Setup.sh`, the following prompt will appear from which you can choose one of the options:
+Open __Terminal.app__ and run the command `chmod -R a+x ~/Clean-macOS-Setup && ~/Clean-macOS-Setup/Clean-macOS-Setup.sh`, the following prompt will appear from which you can choose one of the options:
 
 <p align="center">
   <a href="https://github.com/Alitejawi/Clean-macOS-Setup">
