@@ -39,9 +39,11 @@ brew "zlib"                                 # zlib
 
 
 cask "appcleaner"                           # Thorough app cleaner
+cask "apparency"                            # Checking security of an app
 cask "autopkgr"                             # Autopkgr
 cask "balenaetcher"                         # Create bootable ISO
 cask "disk-inventory-x"                     # Check what's taking up space on your Mac
+cask "devutils"                             # Dictionary for developer utilities
 cask "fsmonitor"                            # Check the filesystem
 cask "firefox"                              # Firefox browser
 cask "google-chrome"                        # Chrome browser
@@ -50,16 +52,22 @@ cask "iterm2"                               # Terminal Window app
 cask "mactracker"                           # Database of Macs
 cask "keepingyouawake"                      # Keeps MacOS from going to sleep indefinitely
 cask "keka"                                 # Archive utility
+cask "knockknock"                           # See what's persistently installed on your Mac
+cask "launchcontrol"                        # Create your own LaunchDaemons/LaunchAgents
+cask "lockdown"                             # Audits and remediates security configuration settings
+cask "lockrattler"                          # Quick check of your security systems
 cask "microsoft-office"                     # Microsoft Office
-cask "mysqlworkbench"                       # MySQL Workbench
 cask "packages"                             # Create custom packages
+cask "postman"                              # Powerful API tool
 cask "profilecreator"                       # Create macOS Configuration Profiles
 cask "powershell"                           # PowerShell CLI
+cask "raycast"                              # Replacement for Spotlight
 cask "slack"                                # Slack client
 cask "spotify"                              # Music service
 cask "suspicious-package"                   # Inspect Mac app packages before installing
 cask "visual-studio-code"                   # Visual Studio Code IDE
 cask "whatsapp"                             # Whatsapp desktop client
+cask "microsoft-office"                     # Microsoft Office
 mas "Magnet", id: 441258766                 # Install Magnet
 mas "Poolside FM", id: 1514817810           # PoolSide FM
 mas "Blackmagic Disk Speed", id: 425264550  # BlackMagic Disk Speed
