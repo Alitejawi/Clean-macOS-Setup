@@ -43,7 +43,7 @@ You need an active internet connection and one of the following macOS version al
 
 - [x] macOS 10.15 Catalina
 - [x] macOS 11 Big Sur
-- [ ] macOS 12 Monterey (testing phase)
+- [x] macOS 12 Monterey
 
 For the sake of making this easy and straight forward, the directory this is going to be cloned in is your root user directory (~). Feel free to change this to any directory you want and adjust the commands accordingly. 
 
@@ -51,7 +51,7 @@ For the sake of making this easy and straight forward, the directory this is goi
 
 1. Clean installation of macOS (version 10.15+)
 2. Signed to the Apple Store with your Apple ID account
-3. Clone the repo with the command and jump into the directory `git clone https://github.com/Alitejawi/Clean-macOS-Setup.git ~/Clean-macOS-Setup`
+3. Clone the repo from within your root home dir with the command and jump into the directory `git clone https://github.com/Alitejawi/Clean-macOS-Setup.git ~/Clean-macOS-Setup`
 
 ## Setup
 
