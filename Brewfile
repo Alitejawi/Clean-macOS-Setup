@@ -42,6 +42,7 @@ cask "appcleaner"                           # Thorough app cleaner
 cask "apparency"                            # Checking security of an app
 cask "autopkgr"                             # Autopkgr
 cask "balenaetcher"                         # Create bootable ISO
+cask "betterdisplay"                        # Higher resolutions
 cask "disk-inventory-x"                     # Check what's taking up space on your Mac
 cask "devutils"                             # Dictionary for developer utilities
 cask "fsmonitor"                            # Check the filesystem
